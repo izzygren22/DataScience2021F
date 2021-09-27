@@ -10,7 +10,7 @@ def getWord():
 def startGame(word):
     theme = 'fruits'
     print('Welcome to Hangman!')
-    srtTxt = ('The secret word has {} letters and the theme is ' + theme)
+    srtTxt = ('The secret word has {} letter and the theme is ' + theme)
     print(srtTxt.format(len(word)))
 
 
